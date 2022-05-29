@@ -1,0 +1,55 @@
+/* * {
+    font-family: 'Noto Nastaliq Urdu', serif;
+} */
+.navbar {
+    text-align: right;
+}
+textarea {
+    position: relative;
+    margin-top: 20px;
+    top: 40px;
+    left: 80px;
+    height: 450px;
+    padding: 25px 20px;
+    box-sizing: border-box;
+    border: 1px solid wheat;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+textarea:focus {
+    outline: none;
+    border: 2px solid teal;
+}
+
+#summbtn {
+    position: relative;
+    left: 150px;
+    top: 60px;
+    width: 30%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.copy-btn {    
+    position: relative;
+    top: -400px;
+    left: 200px;
+    cursor: pointer;
+    outline: 0;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #0d6efd;
+    border-color: #0d6efd;
+}
+
